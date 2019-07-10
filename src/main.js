@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-//import PalindromDOM from '../palindrom/dist/palindrom-dom'
-import { PalindromDOM } from 'palindrom'
+import {Palindrom, PalindromDOM} from 'palindrom'
+
 
 Vue.config.productionTip = false
 
-var palindrom = new PalindromDOM({
+new PalindromDOM({
   remoteUrl: window.location.href,
   onStateReset: function (obj) {
       new Vue({
@@ -16,7 +16,6 @@ var palindrom = new PalindromDOM({
       }).$mount('#app')
   },
   listenTo: document.getElementById('app'),
-  remoteUrl: window.location.href,
   useWebSocket: true,
   debug: false,
   localVersionPath: '/_ver#c$',
