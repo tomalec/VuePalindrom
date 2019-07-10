@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import PalindromDOM from '../palindrom/dist/palindrom-dom'
+//import PalindromDOM from '../palindrom/dist/palindrom-dom'
+import { PalindromDOM } from 'palindrom'
 
 Vue.config.productionTip = false
 

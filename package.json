@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "palindrom": "^6.1.0",
+    "palindrom": "github:Palindrom/Palindrom#improved-npm-module",
     "vue": "^2.6.10"
   },
   "devDependencies": {
